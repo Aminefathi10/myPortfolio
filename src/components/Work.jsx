@@ -1,4 +1,4 @@
-
+import storeImg from '../assets/store.png'
 
 function Work() {
   return (
@@ -21,11 +21,14 @@ function Work() {
             <h1 className="absolute bottom-0 p-4 py-2 bg-sky-500 w-full text-center text-white text-lg font-semibold font-display">X clone</h1>
           </a>
         </div>
-        <div className="sm:w-4/6 w-5/6 m-5 aspect-5/3 rounded-lg bg-white relative truncate cursor-pointer">
-          <a href="https://aminefathi10.github.io/greenStore/" target="_blank" rel="noopener noreferrer">
-            <img src="https://firebasestorage.googleapis.com/v0/b/x-clone-react.appspot.com/o/portfolioWorkImages%2F1.png?alt=media&token=01b87652-37e9-4f60-b93b-94c39490ddd9" alt=""  />
+        <div className="sm:w-4/6 w-5/6 m-5 aspect-5/3 rounded-lg bg-white relative truncate overflow-hidden group">
+          <div className='absolute w-full h-full bg-black opacity-0 group-hover:opacity-80 z-10 duration-100' />
+          <div className="absolute w-full h-full z-20 flex flex-col justify-center gap-4 items-center">
+            <a href="https://github.com/Aminefathi10/demo-webshop-nextjs-redux" target='_blank' className="w-3/4 py-2 text-md text-black bg-white text-center rounded-md font-semibold duration-200 scale-y-0 group-hover:scale-100 origin-top">View the source code</a>
+            <a href="https://demo-webshop-nextjs-redux.vercel.app/" target='_blank' className="w-3/4 py-2 text-md text-black bg-white text-center rounded-md font-semibold duration-200 scale-y-0 group-hover:scale-100 origin-top">Visit The Website</a>
+          </div>
+            <img src={storeImg} alt=""  />
             <h1 className="absolute bottom-0 p-4 py-2 bg-sky-500 w-full text-center text-white text-lg font-semibold font-display">e-commerce website</h1>
-            </a>
         </div>
     </div></div>
   )

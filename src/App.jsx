@@ -5,7 +5,6 @@ import Hamburger from './components/HamburgerMenu.jsx';
 import About from './components/About.jsx';
 import Work from './components/Work.jsx';
 import Contact from './components/Contact.jsx';
-import "https://kit.fontawesome.com/ce91c21e99.js";
 import "@lottiefiles/lottie-player";
 import Footer from './components/Footer.jsx';
 import { useState, useEffect } from "react";
@@ -46,7 +45,7 @@ function App() {
       setLoading(false);
     }
     handleLoading();
-  }, [loading]);
+  }, []);
 
  return(
   <div className='overflow-x-hidden bg-gray-900 relative font-body'>

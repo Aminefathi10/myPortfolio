@@ -4,7 +4,7 @@ function About(){
 
     return(
     <div id="about" className="w-screen z-0  min-h-72 pb-5 relative">
-        <lottie-player style={{width: "100%", maxWidth: "800px", height: "750px", position: "absolute", top: "0", right: "0", zIndex: "-1"}} src="https://lottie.host/155121d4-6a00-4fe6-96b3-2abdebf8bc74/uZ7GIFBbWU.json" speed="1" loop autoplay direction="1" mode="normal" />
+        {/* <lottie-player style={{width: "100%", maxWidth: "800px", height: "750px", position: "absolute", top: "0", right: "0", zIndex: "-1"}} src="https://lottie.host/155121d4-6a00-4fe6-96b3-2abdebf8bc74/uZ7GIFBbWU.json" speed="1" loop autoplay direction="1" mode="normal" /> */}
         <h1 className="z-100 text-3xl font-bold font-sans text-white text-center p-8">ABOUT ME</h1>
         <div className="z-100 w-20 h-3 rounded-md mx-auto bg-sky-300 -mt-4" />
         <div className="z-10 sm:flex max-w-4xl mx-auto">
