@@ -6,11 +6,12 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown';
 
+
 function Home() {
     
     
     return(
-    <div id="home" className="h-screen relative w-screen box-border bg-dark-bg  flex flex-col justify-center items-center bg-bottom bg-cover">
+    <div id="home" className="h-screen relative w-screen box-border bg-homebackground  flex flex-col justify-center items-center bg-bottom bg-cover">
         <h1 className="text-yellow-400 text-5xl mb-2 font-bold"> 
         <Typewriter words={['Hey there,']} typeSpeed={50}  cursor deleteSpeed={50} loop/>
         </h1>

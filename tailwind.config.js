@@ -9,7 +9,7 @@ export default {
         "fvh": "100vh"
       },
       backgroundImage: {
-      'dark-bg': "url('https://images.pexels.com/photos/2098427/pexels-photo-2098427.jpeg?cs=srgb&amp;dl=pexels-eberhardgross-2098427.jpg&amp;fm=jpg')",
+      'homebackground': "url('/background.jpg')",
       'footer-texture': "url('/img/footer-texture.png')",
     },
       aspectRatio: {
