@@ -15,7 +15,7 @@ function Home() {
         <h1 className="text-yellow-400 text-5xl mb-2 font-bold"> 
         <Typewriter words={['Hey there,']} typeSpeed={50}  cursor deleteSpeed={50} loop/>
         </h1>
-        <h1 className="font-sm text-white font-semibold">my name is amine, I am a web developer</h1>
+        <h1 className="font-xl text-emerald-100 font-semibold">my name is amine, I am a web developer</h1>
         <div className="w-fit mx-auto mt-2">
         <a className='mr-1' href="https://www.linkedin.com/in/amine-fathi-580bb02b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel='noreferrer'><LinkedInIcon className=" text-white text-2xl hover:text-sky-500 mr-1" /></a>
         <a className='mr-1' href="https://github.com/Aminefathi10" target="_blank" rel='noreferrer'><GitHubIcon className=" text-white text-2xl hover:text-sky-500 mr-1" /></a>
@@ -23,7 +23,7 @@ function Home() {
         <a className='mr-1' href="https://wa.me/qr/BKKKBJKGCVLHD1" target="_blank" rel='noreferrer'>
         <WhatsAppIcon className=" text-white text-2xl hover:text-sky-500 mr-1" /></a>
         </div>
-        <KeyboardDoubleArrowDownIcon className="text-2xl w-10 h-10 text-white absolute bottom-0 animate-bounce border-2 pb-0 flex justify-center items-center rounded-full" />
+        <KeyboardDoubleArrowDownIcon className="text-[3em] text-white absolute -bottom-2 animate-bounce" />
         
     </div>
     )

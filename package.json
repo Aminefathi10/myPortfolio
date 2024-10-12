@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://Aminefathi10.github.io/myPortfolio/",
+  "homepage": "https://Aminefathi10.github.io/",
   "scripts": {
     "start": "vite",
     "build": "vite build",

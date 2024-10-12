@@ -37,15 +37,15 @@ function App() {
     navbar();
     document.body.classList.toggle("truncate");
   };
-  const [ loading, setLoading ] = useState(true);
+  const [ loading, setLoading ] = useState(false);
   
-  useEffect(() => {
-    async function handleLoading() {
-      await new Promise(resolve => setTimeout(resolve, 2000));
-      setLoading(false);
-    }
-    handleLoading();
-  }, []);
+  // useEffect(() => {
+  //   async function handleLoading() {
+  //     await new Promise(resolve => setTimeout(resolve, 2000));
+  //     setLoading(false);
+  //   }
+  //   handleLoading();
+  // }, []);
 
  return(
   <div className='overflow-x-hidden bg-gray-900 relative font-body'>
