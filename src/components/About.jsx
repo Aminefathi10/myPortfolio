@@ -9,15 +9,13 @@ function About(){
         <div className="z-100 w-20 h-3 rounded-md mx-auto bg-sky-300 -mt-4" />
         <div className="z-10 sm:flex max-w-5xl mx-auto">
         <div className="text-bold font-sans text-xl text-white my-4 p-4 flex-1">
-            I'm a motivated front-end developer with a knack for creating user-
-            friendly web applications using mainly<span className="ml-1 font-extrabold text-teal-200">NextJs and Tailwind Css</span>
+            I'm a motivated front-end developer with a knack for creating user-friendly web applications using mainly<span className="ml-1 font-extrabold text-teal-200">NextJs and Tailwind Css</span>
             . With 
             hands-on experience in web development as i worked on various projects with some local businesses and also as a freelancer.
              I thrive in fast-paced environments and I am committed 
             to continuous learning and growth in the tech industry. My 
             background in diverse roles has equipped me with strong 
-            communication and problem-solving abilities, making me a well-
-            rounded candidate for any team.</div>
+            communication and problem-solving abilities, making me a well-rounded candidate for any team.</div>
         <div className="flex-1">
         <h1 className="text-4xl font-display text-gray-300 m-2 mb-5 mt-7">Skills:</h1>
         <span className="bg-gray-600 text-gray-50 text-lg px-4 py-2 rounded-md m-1.5 inline-block">HTML</span>

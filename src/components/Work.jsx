@@ -8,7 +8,7 @@ function Work() {
             <div className="w-20 h-3 rounded-md mx-auto bg-sky-300 -mt-4 z-50 relative" />
         
         
-        <div id="work" className='w-screen max-w-5xl mx-auto flex flex-col items-center sm:flex-row'>
+        <div id="work" className='w-screen max-w-5xl mx-auto flex flex-col items-center sm:flex-row my-5'>
           
         
 
