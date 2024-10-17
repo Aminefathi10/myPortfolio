@@ -40,11 +40,11 @@ function App() {
   const [ loading, setLoading ] = useState(true);
   
   useEffect(() => {
-    async function handleLoading() {
-      await new Promise(resolve => setTimeout(resolve, 2000));
+    const img = new Image();
+    img.src = '/background.jpg';
+    img.onload = () => {
       setLoading(false);
     }
-    handleLoading();
   }, []);
 
  return(
