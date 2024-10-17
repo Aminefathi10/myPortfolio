@@ -17,7 +17,7 @@ export default {
     },
     },
     fontFamily: {
-      'display': ['Helevetica', 'sans serif' ],
+      'display': ['Gatte', 'sans serif' ],
       'body': ['"Arial', 'Helvetica', 'sans serif'],
     },
     animation: {

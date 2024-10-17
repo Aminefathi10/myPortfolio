@@ -5,3 +5,10 @@
 * {
     @apply box-border
 }
+
+@layer base {
+    @font-face {
+        font-family: "Gatte";
+        src: url("./assets/fonts/GatteModern-Medium.otf");
+    }
+}
