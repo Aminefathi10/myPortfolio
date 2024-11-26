@@ -46,9 +46,9 @@ function Work() {
           <div className='absolute w-full h-full bg-black rounded-xl opacity-0 group-hover:opacity-80 z-10 duration-100' />
           <div className="absolute w-full h-full z-20 flex flex-col justify-center gap-4 items-center">
             <a href="https://github.com/Aminefathi10/x-clone-react" target='_blank' className="w-3/4 py-2 text-md text-black bg-white text-center rounded-md font-semibold duration-200 scale-y-0 group-hover:scale-100 origin-top">View the source code</a>
-            <a href="https://aminefathi10.github.io/x-clone-react/" target='_blank' className="w-3/4 py-2 text-md text-black bg-white text-center rounded-md font-semibold duration-200 scale-y-0 group-hover:scale-100 origin-top">Visit The Website</a>
+            <a href="https://x-clone-react-psi.vercel.app/" target='_blank' className="w-3/4 py-2 text-md text-black bg-white text-center rounded-md font-semibold duration-200 scale-y-0 group-hover:scale-100 origin-top">Visit The Website</a>
           </div>
-            <img src={xClone} alt="" className='h-full object-cover'  />
+            <img src={xClone} alt="" className='w-full object-cover'  />
             <h1 className="absolute bottom-0 p-4 py-2 bg-sky-600 w-full text-center text-white text-xl font-semibold font-display">X Clone, with react and tailwind</h1>
         </div>
 
@@ -56,7 +56,7 @@ function Work() {
           <div className='absolute w-full h-full bg-black rounded-xl opacity-0 group-hover:opacity-80 z-10 duration-100' />
           <div className="absolute w-full h-full z-20 flex flex-col justify-center gap-4 items-center">
             <a href="https://github.com/Aminefathi10/demo-webshop-nextjs-redux" target='_blank' className="w-3/4 py-2 text-md text-black bg-white text-center rounded-md font-semibold duration-200 scale-y-0 group-hover:scale-100 origin-top">View the source code</a>
-            <a href="https://demo-webshop-nextjs-redux.vercel.app/" target='_blank' className="w-3/4 py-2 text-md text-black bg-white text-center rounded-md font-semibold duration-200 scale-y-0 group-hover:scale-100 origin-top">Visit The Website</a>
+            <a href="https://webshop-nextjs-redux.vercel.app/" target='_blank' className="w-3/4 py-2 text-md text-black bg-white text-center rounded-md font-semibold duration-200 scale-y-0 group-hover:scale-100 origin-top">Visit The Website</a>
           </div>
             <img src={storeImg} alt="" className='object-cover h-full' />
             <h1 className="absolute bottom-0 p-4 py-2 bg-sky-600 w-full text-center text-white text-xl font-semibold font-display">e-commerce website, with next and tailwind</h1>
